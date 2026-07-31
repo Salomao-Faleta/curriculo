@@ -42,10 +42,3 @@ e a baixo do nome "Raíssa Gomes" escrito "Violinista"
 
 
 
-
-
-
-
-
-
-
