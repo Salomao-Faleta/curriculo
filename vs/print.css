@@ -1,0 +1,9 @@
+@media print {
+    * {
+        visibility: visible !important;
+    }
+
+    body {
+        overflow: visible !important;
+    }
+}

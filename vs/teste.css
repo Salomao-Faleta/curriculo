@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Hand:wght@400..700&display=swap');
-
-:root{
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+:root {
     --corTarget: #401612;
     --corText: white;
+
+    --MainFont: "Oswald", sans-serif;
 }
 
 * {
@@ -15,12 +16,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: "Edu VIC WA NT Hand", cursive;
+    font-family: var(--MainFont);
 }
 
 .container {
     width: 100vw;
-    background-color: red;
+    /* background-color: red; */
 }
 
 header {
@@ -29,6 +30,7 @@ header {
     padding: 10px;
     color: var(--corText);
     background-color: var(--corTarget);
+    margin-bottom: 20px;
 }
 
 .infors {
@@ -50,21 +52,40 @@ header {
     border-radius: 50%;
 }
 
-aside{
-    height: 200px;
+aside {
+    height: auto;
 }
 
-.aside-formaçao{
-    
+.aside-h1 {
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: var(--corTarget);
+    color: var(--corText);
+    margin: 0px;
+    padding: 10px;
 }
-.aside-competencias{
 
+ul {
+    list-style: none;
 }
-.aside-idiomas{
 
+ul li:first-child p {
+    font-weight: bold;
+    font-size: 18px;
 }
-.aside-experiencias{
 
+/* .aside-formaçao { height: auto;} */
+
+.aside-competencias {}
+
+.aside-idiomas {}
+
+.aside-experiencias {}
+
+
+
+footer{
+    text-align: center;
 }
 
 
@@ -78,7 +99,7 @@ aside{
         font-size: 12px;
     }
 
-    #foto{
+    #foto {
         width: 150px;
         height: 150px;
     }
