@@ -1,28 +1,65 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Currículo</title>
-    <link rel="stylesheet" href="assets/style.css" />
-  </head>
-  <body>
-    <main class="container">
-      <section class="card">
-        <a href="assets/cv/salomao.pdf" target="_blank" rel="noopener noreferrer">
-          <img src="assets/img/salomao.jpeg" alt="Foto de Salomão Faleta" />
-        </a>
-        <h1><a href="assets/cv/salomao.pdf" target="_blank" rel="noopener noreferrer">Salomão Faleta</a></h1>
-        <p>Violista</p>
-      </section>
+<html lang="en">
 
-      <section class="card">
-        <a href="assets/cv/raissa.pdf" target="_blank" rel="noopener noreferrer">
-          <img src="assets/img/raissa.jpeg" alt="Foto de Raíssa Gomes" />
-        </a>
-        <h1><a href="assets/cv/raissa.pdf" target="_blank" rel="noopener noreferrer">Raíssa Gomes</a></h1>
-        <p>Violinista</p>
-      </section>
-    </main>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/print.css">
+    <title>Modelo Currículo</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <div class="infors">
+                <div class="infor_pessoais">
+                    <h1 id="nome"></h1>
+                    <p id="cargo"></p>
+                </div>
+                <div class="infor_contato">
+                    <p id="email"></p>
+                    <p id="telefone"></p>
+                    <p id="cidade"></p>
+                </div>
+            </div>
+
+            <div class="foto">
+                <img src="" alt="Salomão Faleta" id="foto">
+            </div>
+        </header>
+
+        <aside class="aside-formacao">
+            <h1 class="aside-h1">Formação</h1>
+
+            <ul>
+                <li> <p>Bacharelado em Música – Viola (em andamento)</p> </li>
+                <li> <p>Universidade Federal da Bahia • 2026 – 2030</p> </li>
+            </ul>
+
+        </aside>
+
+        <aside class="aside-competencias">
+            <h1 class="aside-h1">Competências</h1>
+        </aside>
+
+        <aside class="aside-idiomas">
+            <h1 class="aside-h1">Idiomas</h1>
+        </aside>
+
+        <aside class="aside-experiencias">
+            <h1 class="aside-h1">Experiências</h1>
+        </aside>
+
+
+
+        <footer>
+            <p>Salvador/Bahia 2026</p>
+        </footer>
+
+    </div>
+
+    <script src="assets/script.js"></script>
+</body>
 </html>
