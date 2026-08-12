@@ -1,8 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Hand:wght@400..700&display=swap');*{
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Hand:wght@400..700&display=swap');
+
+:root{
+    --corTarget: #401612;
+    --corText: white;
+}
+
+* {
     box-sizing: border-box;
 }
 
-body{
+body {
     padding: 0;
     margin: 0;
     display: flex;
@@ -11,32 +18,68 @@ body{
     font-family: "Edu VIC WA NT Hand", cursive;
 }
 
-.container{
-    background-color: #DDD;
+.container {
     width: 100vw;
+    background-color: red;
 }
 
-header{
+header {
     display: flex;
     justify-content: space-around;
     padding: 10px;
+    color: var(--corText);
+    background-color: var(--corTarget);
 }
 
-.infors{
+.infors {
     text-align: center;
 }
 
-.infor_pessoais{
+.infor_pessoais {
     line-height: 1.2;
 }
 
-.infor_contato{
+.infor_contato {
     line-height: 1.6;
 }
 
-#foto{
+#foto {
     width: 200px;
     height: 200px;
     object-fit: cover;
     border-radius: 50%;
+}
+
+aside{
+    height: 200px;
+}
+
+.aside-formaçao{
+    
+}
+.aside-competencias{
+
+}
+.aside-idiomas{
+
+}
+.aside-experiencias{
+
+}
+
+
+
+@media(max-width: 500px) {
+    .infor_pessoais h1 {
+        font-size: 25px;
+    }
+
+    .infor_contato {
+        font-size: 12px;
+    }
+
+    #foto{
+        width: 150px;
+        height: 150px;
+    }
 }
