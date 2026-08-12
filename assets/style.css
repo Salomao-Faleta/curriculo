@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
 :root {
     --corTarget: #401612;
     --corText: white;
@@ -8,6 +9,9 @@
 
 * {
     box-sizing: border-box;
+    /* padding: 0;
+    margin: 0; 
+    OPTEI EM NÃO ZERAR, CASO DER ALGO ERRDO POSSO VER SE TEM RELAÇÃO AQUI */
 }
 
 body {
@@ -69,14 +73,23 @@ ul {
     list-style: none;
 }
 
-ul li:first-child p {
+.aside-formacao ul li:first-child p {
     font-weight: bold;
     font-size: 18px;
 }
 
 /* .aside-formaçao { height: auto;} */
 
-.aside-competencias {}
+.aside-competencias {
+    display: flex;
+    flex-direction: column;
+}
+
+.aside-competencias ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+}
 
 .aside-idiomas {}
 
@@ -84,10 +97,17 @@ ul li:first-child p {
 
 
 
-footer{
+footer {
     text-align: center;
 }
 
+@media(width <= 600px) {
+
+    .aside-competencias ul {
+        grid-template-columns: repeat(1, 1fr);
+       
+    }
+}
 
 
 @media(max-width: 500px) {
