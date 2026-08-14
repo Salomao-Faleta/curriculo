@@ -11,4 +11,9 @@
     body {
         overflow: visible !important;
     }
+
+    aside {
+        break-inside: avoid;
+        page-break-inside: avoid;
+    }
 }

@@ -60,7 +60,7 @@ aside {
     height: auto;
 }
 
-.aside-h1 {
+.target-h1 {
     font-size: 20px;
     text-transform: uppercase;
     background-color: var(--corTarget);
