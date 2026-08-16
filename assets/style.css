@@ -124,12 +124,16 @@ ul {
     text-align: center;
 }
 
+.aside-competencias ul li,
+.aside-idiomas ul, li{
+    margin: 15px;
+}
+
 /* IDOMAS */
 .aside-idiomas ul{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    
 }
 
 
