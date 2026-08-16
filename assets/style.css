@@ -9,9 +9,8 @@
 
 * {
     box-sizing: border-box;
-    /* padding: 0;
+    padding: 0;
     margin: 0; 
-    OPTEI EM NÃO ZERAR, CASO DER ALGO ERRDO POSSO VER SE TEM RELAÇÃO AQUI */
 }
 
 body {
@@ -25,7 +24,6 @@ body {
 
 .container {
     width: 100vw;
-    /* background-color: red; */
 }
 
 header {
@@ -43,10 +41,12 @@ header {
 
 .infor_pessoais {
     line-height: 1.2;
+    line-height: 1.4;
+    margin: 20px;
 }
 
 .infor_contato {
-    line-height: 1.6;
+    line-height: 2.0;
 }
 
 #foto {
@@ -69,8 +69,15 @@ aside {
     padding: 10px;
 }
 
+/* FORMAÇÃO */
+
 ul {
     list-style: none;
+    margin: 20px;
+}
+
+.aside-formacao ul li{
+    margin: 10px;
 }
 
 .aside-formacao ul li:first-child p {
@@ -78,7 +85,33 @@ ul {
     font-size: 18px;
 }
 
-/* .aside-formaçao { height: auto;} */
+/* EXPERIENCIAS */
+
+.aside-experiencias section{
+    text-align: justify;
+    margin: 20px;
+}
+
+.section-p {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+/* TURNÊS */
+
+
+
+
+
+
+
+
+
+
+
+
+/* COMPETENCIAS */
 
 .aside-competencias {
     display: flex;
@@ -91,17 +124,13 @@ ul {
     text-align: center;
 }
 
+/* IDOMAS */
 .aside-idiomas ul{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     
 }
-
-.aside-experiencias {
-    
-}
-
 
 
 footer {

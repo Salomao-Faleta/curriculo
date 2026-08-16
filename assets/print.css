@@ -12,8 +12,8 @@
         overflow: visible !important;
     }
 
-    aside {
+    .section-turnes {
         break-inside: avoid;
-        page-break-inside: avoid;
+        page-break-inside: avoid; 
     }
 }
