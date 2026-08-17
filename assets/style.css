@@ -100,11 +100,20 @@ ul {
 
 /* TURNÊS */
 
+.section-turnes{
+    padding: 20px;
+}
 
+.section-titulo {
+    font-weight: bold;
+    font-size: 18px;
+}
 
-
-
-
+.section-carga {
+    font-style: italic;
+    font-size: 14px;
+    margin: 5px 0px;
+}
 
 
 
@@ -139,6 +148,7 @@ ul {
 
 footer {
     text-align: center;
+    padding: 50px;
 }
 
 @media(width <= 600px) {
